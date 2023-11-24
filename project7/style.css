@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+}
+.side {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.bar{
+    margin-top: 20px;
+}
+.sidenav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{
+    width:100%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.logo img{
+    height: 30px;
+}
+.centernav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.search{
+    display: flex;
+}
+.search input{
+    width: 600px;
+    padding: 15px;
+    border: 0.5px solid #ccc;
+}
+.search button{
+    padding: 15px;
+    background-color: rgb(240, 239, 239);
+    border: none;
+}
+.mic{
+    background-color: rgb(240, 239, 239);
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+}
+.mic img{
+    padding: 20px;
+}
+.navend{
+    display: flex;
+    gap: 10px;
+    padding-right: 80px;
+}
+.sec-header{
+    display: flex;
+    padding: 15px 35px;
+    gap: 30px;
+    border-top: 1px solid #ccc;
+}
+.tag{
+    padding: 7px 12px;
+    border: 1px solid #000 ;
+    border-radius: 14px;
+}
+.dark{
+    background-color: #000;
+    color: white;
+}
+.light{
+    background: rgb(238, 238, 238);
+    color: rgb(67, 67, 67);
+}
+.card-container{
+    background-color: rgb(240, 239, 239);
+    display: flex;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); */
+    gap: 20px;
+    flex-wrap: wrap;
+}
+@media (max-width:1025px){
+    .card-container{
+        width: 1200px;
+    }
+}
+.card{
+    width: 320px;
+    padding: 16px;
+
+}
+.content{
+    display: flex;
+    align-items: center;
+}
+.status{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+}
+.down{
+    font-size: 14px;
+}
+.dots{
+  
+}
+.mainimg{
+    background-size: cover;
+    width: 320px;
+}
+.card h3{
+    font-size: 20px;
+}
+.channel-name{
+    font-size: 16px;
+    font-weight: bold;
+    text-indent: 40px;
+    padding-top: 10px;
+}

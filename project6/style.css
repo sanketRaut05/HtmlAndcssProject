@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@200&family=Poppins:wght@400;700&family=Roboto:wght@100;300;400&family=Ubuntu:wght@400;500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    ;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+header {
+    /* display: flex;
+    justify-content: space-between; */
+    /* align-items: center; */
+    background-color: #270082;
+    position: sticky;
+    top: 0;
+    z-index: 1; 
+   
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+.container i{
+    display: none;
+}
+ul li {
+    list-style: none;
+    /* margin: 15px; */
+    font-size: 18px;
+    font-weight: 100;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+ul li :hover{
+      text-decoration: underline;
+       transition: 0.4ms ease-in-out;
+
+    }
+
+.logo {
+    color: white;
+    font-size: 20px;
+}
+
+.logo h1 {
+    font-weight: bold;
+
+}
+
+.one {
+    background-image: url("images/first.jpg");
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.head {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.head h1 {
+    font-size: 80px;
+}
+
+.head h3 {
+    font-size: 40px;
+}
+
+.head p {
+    font-size: 20px;
+}
+
+.music {
+    background-color: #281154;
+    height: 80vh;
+    color: white;
+    padding-top: 50px;
+}
+
+.music .container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.music button {
+    padding: 10px;
+    background-color: red;
+    color: white;
+}
+
+.music h1 {
+    font-size: 30px;
+}
+
+.music h4 {
+    font-size: 17px;
+}
+
+.music p {
+    font-size: 18px;
+}
+
+.img {
+    display: flex;
+    position: relative;
+    bottom: 300px;
+}
+
+.body .container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: -120px;
+}
+
+.container button {
+    padding: 10px;
+    color: white;
+    background-color: #270082;
+}
+.ipad{
+    padding-top: 40px;
+    height: auto;
+    width: 100%;
+}
+
+img {
+    padding-top: 40px;
+    /* position: relative;
+    left: 80px; */
+    height: auto;
+    width: 100%;
+}
+
+.main{
+    padding-top: 30px;
+}
+.video {
+    background-image: url("images/video.png");
+    height: 100vh;
+    
+}
+#gift img{
+    padding-top: 40px;
+    height: auto;
+    width: 50%;
+}
+#gift .container{
+    display: flex;
+}
+.video .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    color: white;
+    position: relative;
+    top: 30%;
+    text-align: center;
+}
+.card .container{
+    display: flex;
+    gap: 145px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    /* flex-wrap: wrap; */
+}
+.des{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    gap: 30px;
+/* width: 100%; */
+}
+hr{
+    width: 100%;
+}
+footer{
+    background-color: #270082;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.upperfooter{
+    background-color: #281154;
+    padding: 30px;
+    margin-top: 60px;
+}
+.upperfooter .container{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.footerlink h1{
+font-size: 20px;
+border-bottom: 2px solid white;
+padding: 10px 0px;
+margin-bottom: 10px;
+}
+ol li{
+    list-style: none;
+}
+@media (max-width:840px){
+    .card .container{
+        flex-wrap: wrap;   
+    }
+    .des{
+        justify-content: center;
+        align-items: center;
+        padding-left: 25px;
+    }
+    .img{
+        bottom: 160px;
+    }
+}
+@media (max-width:571px){
+    .container ul{
+        display: none;
+    }
+    .container i{
+        display: block;
+        font-size: 40px;
+        color: #fff;
+        padding-right: 20px;
+
+    }
+    .head{
+        top: 0;
+    }
+    .head p{
+        font-size: 17px;
+    }
+    .img{
+        bottom: 100px;
+        margin-bottom: 50px;
+    }
+   
+    }
