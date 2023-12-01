@@ -64,7 +64,7 @@ nav ul li a {
 
 .img img {
     width: 300px;
-    border-radius: 20%;
+    border-radius:5px;
 }
 
 .info {
