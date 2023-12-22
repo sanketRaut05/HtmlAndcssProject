@@ -18,6 +18,7 @@ border: 10px solid #1d1e4c;;
     justify-content: space-evenly;
     padding-top: 80px;
     align-items: flex-end;
+    flex-wrap: wrap;
 }
 .head_section h1{
  font-weight: 300;
@@ -30,7 +31,7 @@ border: 10px solid #1d1e4c;;
 .img img {
     height: 205px;
     width: 205px;
-    border-radius: 120px;
+    border-radius: 10px;
 }
 .about h1{
     padding: 30px;
